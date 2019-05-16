@@ -1,0 +1,40 @@
+.button-row 
+{
+    padding: 5px;
+
+    a, button {
+        margin-left: 10px;
+    }
+}
+
+div.page-body {
+    padding: 20px;
+}
+
+// bootstrap 
+
+a[mat-button] {
+    text-decoration: none;
+    color: white;
+}
+
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.user-display {
+    display: flex;
+    flex-direction: row;
+
+    img {
+        background: white;
+        margin-top: -3px;
+        max-height: 32px;
+        max-width: 32px;
+    }
+
+    .mat-button-wrapper {
+        padding: 5px;
+    }
+}
