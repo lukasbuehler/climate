@@ -17,6 +17,10 @@ a[mat-button] {
     text-decoration: none;
     color: white;
 }
+button:focus
+{
+    outline: none;
+}
 
 
 .spacer {
